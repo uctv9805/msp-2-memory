@@ -1,4 +1,11 @@
 .copyright {
     text-align: center;
-    border: 3px solid green;
   }
+
+.card-spacing {
+    padding: 0.5cm;
+}
+
+.foot-space {
+  padding-top: 10cm;
+}

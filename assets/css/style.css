@@ -9,3 +9,15 @@
 .foot-space {
   padding-top: 10cm;
 }
+
+.col {
+  height: 3.5cm;
+  width: 3.5cm;
+}
+
+.banana {
+  background: url("../images/banana.jpg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}

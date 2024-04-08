@@ -43,5 +43,79 @@ button {
 .game-area {
   border-radius: 5px;
   box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
-  background: linear-gradient(135deg,#004E89 30%, #35A7FF 70%, #9FFCDF 100%);
+  background: linear-gradient(135deg,#004E89 5%, #35A7FF 65%, #9FFCDF 100%);
+  transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  backface-visibility: hidden;
+}
+
+.board {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.board-container.flippedd .board {
+  transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.board-container.flippedd .win {
+  transform: rotateY(0) rotateZ(0);
+}
+
+.card {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background: #914D76;
+  transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg) rotateZ(50deg);
+  font-size: 28pt;
+  user-select: none;
+  text-align: center;
+  line-height: 100px;
+  background: #fff;
+}
+
+.card-flippedd .card-front {
+  transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.card-flippedd .card-back {
+  transform: rotateY(0) rotateZ(0);
+}
+
+.win {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #fff;
+  transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.win-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 21pt;
+  color: #282A3A;
+}
+.highlight {
+  color: #004E89;
 }

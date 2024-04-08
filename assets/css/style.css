@@ -1,23 +1,47 @@
-.copyright {
-    text-align: center;
-  }
-
-.card-spacing {
-    padding: 0.5cm;
+html {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(325deg,#004E89 30%, #35A7FF 70%, #9FFCDF 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
-.foot-space {
-  padding-top: 10cm;
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.col {
-  height: 3.5cm;
-  width: 3.5cm;
+.controls {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;;
 }
 
-.banana {
-  background: url("../images/banana.jpg") no-repeat center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
+button {
+  background: #914D76;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10 px 20px;
+  border: 0;
+  cursor: pointer;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.disabled {
+  color: #004E89;
+}
+
+.stats {
+  color: #fff;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.game-area {
+  border-radius: 5px;
+  box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
+  background: linear-gradient(135deg,#004E89 30%, #35A7FF 70%, #9FFCDF 100%);
 }

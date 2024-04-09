@@ -51,16 +51,16 @@ const generateGame = () => {
     }
 
     const images = [
-    {src: 'assets/images/banana.jpg'},
-    {src:'assets/images/dragon.jpg'},
-    {src: 'assets/images/monster.jpg'},
-    {src: 'assets/images/nose.jpg'},
-    {src: 'assets/images/piggin.jpg'},
-    {src: 'assets/images/question.jpg'},
-    {src: 'assets/images/skull.jpg'},
-    {src:'assets/images/tongue.jpg'},
-    {src: 'assets/images/trex.jpg'},
-    {src: 'assets/images/unicorn.jpg'},
+    {'img': 'assets/images/banana.jpg'},
+    {'img':'assets/images/dragon.jpg'},
+    {'img': 'assets/images/monster.jpg'},
+    {'img': 'assets/images/nose.jpg'},
+    {'img': 'assets/images/piggin.jpg'},
+    {'img': 'assets/images/question.jpg'},
+    {'img': 'assets/images/skull.jpg'},
+    {'img':'assets/images/tongue.jpg'},
+    {'img': 'assets/images/trex.jpg'},
+    {'img': 'assets/images/unicorn.jpg'},
     ]
     const picks = pickRandom(images, (dimensions * dimensions) / 2) 
     const items = shuffle([...picks, ...picks])

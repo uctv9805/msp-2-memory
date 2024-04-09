@@ -50,19 +50,19 @@ const generateGame = () => {
         throw new Error("The dimension of the board must be an even number.")
     }
 
-    const emojis = [
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
-    {img src = 'assets/images/banana.jpg'},
+    const images = [
+    {src: 'assets/images/banana.jpg'},
+    {src:'assets/images/dragon.jpg'},
+    {src: 'assets/images/monster.jpg'},
+    {src: 'assets/images/nose.jpg'},
+    {src: 'assets/images/piggin.jpg'},
+    {src: 'assets/images/question.jpg'},
+    {src: 'assets/images/skull.jpg'},
+    {src:'assets/images/tongue.jpg'},
+    {src: 'assets/images/trex.jpg'},
+    {src: 'assets/images/unicorn.jpg'},
     ]
-    const picks = pickRandom(emojis, (dimensions * dimensions) / 2) 
+    const picks = pickRandom(images, (dimensions * dimensions) / 2) 
     const items = shuffle([...picks, ...picks])
     const cards = `
         <div class="board" style="grid-template-columns: repeat(${dimensions}, auto)">

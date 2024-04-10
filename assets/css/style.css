@@ -10,6 +10,7 @@ html {
   text-align: center;
   font-size: 50px;
   color: #914D76;
+  text-shadow: 2px 2px #004E89;
 }
 
 .fa-solid .fa-magnifying-glass {
@@ -124,6 +125,7 @@ button {
 .container {
   height: 400px;
   width: 400px;
+  display: inline-block;
 }
 
 .imagery {
@@ -136,37 +138,42 @@ button {
 .container-2 {
   height: 400px;
   width: 400px;
+  display: block;
+  float: right;
 }
 
 .imagery-2 {
   background-repeat: no-repeat;
-  height: 325px;
-  width: 325px;
+  height: 400px;
+  width: 400px;
   object-fit: contain;
-  padding-top: 75px;
-  padding-left: 25px;
 }
 
 .container-3 {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  padding-left: 50px;
 }
 
 .imagery-3 {
   background-repeat: no-repeat;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   object-fit: contain;
 }
 
 .container-4 {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    display: block;
+    float: right;
+    padding-right: 50px;
 }
   
 .imagery-4 {
     background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: contain;
   }

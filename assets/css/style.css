@@ -177,3 +177,10 @@ button {
     width: 300px;
     object-fit: contain;
   }
+
+  .copyright {
+    font-size: 15px;
+    text-align: center;
+    color: #004E89;
+    padding-top: 40px;
+  }

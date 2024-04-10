@@ -8,7 +8,7 @@ html {
 
 .title {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   color: #914D76;
   text-shadow: 2px 2px #004E89;
 }
@@ -181,6 +181,7 @@ button {
   .copyright {
     font-size: 15px;
     text-align: center;
-    color: #004E89;
+    color: #9FFCDF;
     padding-top: 40px;
+    text-shadow: 2px 2px #004E89;
   }

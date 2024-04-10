@@ -91,7 +91,7 @@ button {
   user-select: none;
   text-align: center;
   line-height: 100px;
-  background: #FDF8E6;
+  background: #9FFCDF;
 }
 .card.flipped .card-front {
   transform: rotateY(180deg) rotateZ(50deg);
@@ -142,6 +142,31 @@ button {
   background-repeat: no-repeat;
   height: 325px;
   width: 325px;
-  padding-top: 175px;
+  object-fit: contain;
+  padding-top: 75px;
   padding-left: 25px;
 }
+
+.container-3 {
+  height: 400px;
+  width: 400px;
+}
+
+.imagery-3 {
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+}
+
+.container-4 {
+    height: 400px;
+    width: 400px;
+}
+  
+.imagery-4 {
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+  }

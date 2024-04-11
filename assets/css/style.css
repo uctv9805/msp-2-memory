@@ -30,6 +30,12 @@ body {
   font-size: 50px;
 }
 
+.sub-title {
+  text-align: center;
+  font-size: 20px;
+  color: #914D76;
+}
+
 /******************************Background Image Layout*/
 
 .background-image {
@@ -55,6 +61,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding-top: 200px;
 }
 
 .controls {
@@ -215,8 +222,16 @@ button {
     font-size: 15px;
     text-align: center;
     color: #9FFCDF;
-    padding-top: 40px;
-    text-shadow: 2px 2px #004E89;
+    margin-top: 100px;
+    font-weight: lighter;
+  }
+
+  .link {
+    color: #03001e;
+  }
+
+  .link:hover {
+    background-color: #914D76;
   }
 
   /******************************Media Queries*/
@@ -224,5 +239,12 @@ button {
   @media screen and (max-width: 600px) {
     .background-images {
       display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .game{
+      height: 50%;
+      width: 50%;
     }
   }

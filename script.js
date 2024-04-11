@@ -1,10 +1,10 @@
 const selectors = {
-    boardContainer: document.querySelector('.board-container'),
-    board: document.querySelector('.board'),
-    moves: document.querySelector('.moves'),
-    timer: document.querySelector('.timer'),
-    start: document.querySelector('button'),
-    win: document.querySelector('.win')
+    boardContainer: document.querySelector(".board-container"),
+    board: document.querySelector(".board"),
+    moves: document.querySelector(".moves"),
+    timer: document.querySelector(".timer"),
+    start: document.querySelector("button"),
+    win: document.querySelector(".win")
 }
 
 const state = {
@@ -35,7 +35,6 @@ const pickRandom = (array, items) => {
 
     for (let i = 0; i < items; i++) {
         const randomIndex = Math.floor(Math.random() * clonedArray.length)
-        
         randomPicks.push(clonedArray[randomIndex])
         clonedArray.splice(randomIndex, 1)
     }
@@ -44,13 +43,12 @@ const pickRandom = (array, items) => {
 }
 
 const generateGame = () => {
-    const dimensions = selectors.board.getAttribute('data-dimension')  
-
+    const dimensions = selectors.board.getAttribute("data-dimension")  
     if (dimensions % 2 !== 0) {
         throw new Error("The dimension of the board must be an even number.")
     }
 
-    const emojis = ['🍻', '👍', '👾', '👣', '🐶', '😴', '🍕', '🍔', '⚽', '🛹']
+    const emojis = ["🍻", "👍", "👾", "👣", "🐶", "😴", "🍕", "🍔", "⚽", "🛹"]
     const picks = pickRandom(emojis, (dimensions * dimensions) / 2) 
     const items = shuffle([...picks, ...picks])
     const cards = `
@@ -62,7 +60,7 @@ const generateGame = () => {
                 </div>
             `).join('')}
        </div>
-    `
+        `
     
     const parser = new DOMParser().parseFromString(cards, 'text/html')
 

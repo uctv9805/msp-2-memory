@@ -17,6 +17,8 @@ body {
   background-image: url("assets/images/eyeball.png");
   }
 
+/******************************Header*/
+
 .title {
   text-align: center;
   font-size: 60px;
@@ -27,6 +29,8 @@ body {
 .fa-solid .fa-magnifying-glass {
   font-size: 50px;
 }
+
+/******************************Background Image Layout*/
 
 .background-image {
   display: flex;
@@ -39,10 +43,12 @@ body {
   padding: 0 4px;
 }
 
-.column img {
+.column {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+/******************************Game*/
 
 .game {
   position: absolute;
@@ -50,11 +56,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .controls {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
 }
+
 button {
   background: #914D76;
   color: #FFF;
@@ -66,45 +74,52 @@ button {
   font-size: 18pt;
   font-weight: bold;
 }
+
 .disabled {
   color: #000;
 }
+
 .stats {
   color: #914D76;
   font-size: 14pt;
   font-weight: bold;
 }
+
 .board-container {
   position: relative;
 }
-.board,
-.win {
+
+.board, .win {
   border-radius: 5px;
   box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
   background: linear-gradient(135deg, #03001e 0%,#004E89 0%,#35A7FF 50%, #9FFCDF 100%);
   transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
   backface-visibility: hidden;
 }
+
 .board {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 20px;
 }
+
 .board-container.flipped .board {
   transform: rotateY(180deg) rotateZ(50deg);
 }
+
 .board-container.flipped .win {
   transform: rotateY(0) rotateZ(0);
 }
+
 .card {
   position: relative;
   width: 100px;
   height: 100px;
   cursor: pointer;
 }
-.card-front,
-.card-back {
+
+.card-front, .card-back {
   position: absolute;
   border-radius: 5px;
   width: 100%;
@@ -113,6 +128,7 @@ button {
   transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
   backface-visibility: hidden;
 }
+
 .card-back {
   transform: rotateY(180deg) rotateZ(50deg);
   font-size: 28pt;
@@ -121,12 +137,17 @@ button {
   line-height: 100px;
   background: #9FFCDF;
 }
+
 .card.flipped .card-front {
   transform: rotateY(180deg) rotateZ(50deg);
 }
+
 .card.flipped .card-back {
   transform: rotateY(0) rotateZ(0);
 }
+
+/******************************Win Card*/
+
 .win {
   position: absolute;
   top: 0;
@@ -148,6 +169,8 @@ button {
 .highlight {
   color: #9FFCDF;
 }
+
+/******************************Background Images*/
 
 .monster {
   background-repeat: no-repeat;
@@ -185,6 +208,8 @@ button {
     float: right;
     padding-right: 120px;
   }
+
+  /******************************Footer*/
 
   .copyright {
     font-size: 15px;

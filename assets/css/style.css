@@ -255,7 +255,7 @@ button {
     }
   }
 
-  @media screen and (min-width: 576px) {
+  @media screen and (max-width: 576px) {
     .game {
       height: 30%;
       width: 30%;

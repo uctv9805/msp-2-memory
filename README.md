@@ -7,7 +7,7 @@ This site is targeted towards anyone who is looking for a fun little game to pla
 
 You can visit my live site [from here](https://uctv9805.github.io/msp-2-memory/)
 
-![shows website working across mulitple devices]()
+![shows website working across mulitple devices](assets/docs/screenshots/responsive.png)
 
 ## Planning Stage
 

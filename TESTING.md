@@ -29,7 +29,7 @@
 
 1. There is a bug that occurs when you click the card whilst the animtation of the card turning is happening where it adds a move to the move counter resulting in a higher number of moves being recorded. I have not yet found a solution but I am working on it. 
 
-2. Still having issues with responsiveness on smaller devices - I feel the way to fix it is too big to resolve at this stage and will be a future fix - The game still works on smaller devices and the site is operational. 
+2. Still having issues with responsiveness on smaller devices (mobiles) - I feel the way to fix it is too big to resolve at this stage and will be a future fix - The game still works on smaller devices and the site is operational but have manually scale on phones. 
 
 # Post Development Testing
 

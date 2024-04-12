@@ -32,7 +32,7 @@
 
 ### HTML
 No errors were returned when passing through the official W3C validator
-- W3C Validator for [Find My Designs](assets/docs/screenshots/html-validator.png)
+- W3C Validator for ![Find My Designs](assets/docs/screenshots/html-validator.png)
 
 ### CSS
 I ran the validator and no errors were reported in my code
@@ -41,11 +41,9 @@ I ran the validator and no errors were reported in my code
 
 ## Lighthouse score
 
-![index lighthouse score](assets/docs/screenshots/indexlighthousedt.png)
+Lighthouse score was run and everything was in the green apart from performance - I am missing out marignally and it seems to be the image sizes - I intend to rectify this soon but ran out of time, I am confident a reduction in image file size will produce good performance.
 
-
-### Issue with performance and the solution
-I was having trouble getting the performance above 90, especially on the gallery page but by reducing the image sizes this resulted in the scores being above 90 on multiple tests. To resize the images easily I used [imageresizer](https://imageresizer.com/).
+![index lighthouse score](assets/docs/screenshots/lighthouse-score.png)
 
 ## Accessibility
 

@@ -62,14 +62,14 @@ const generateGame = () => {
        </div>
         `
     
-    const parser = new DOMParser().parseFromString(cards, 'text/html')
+    const parser = new DOMParser().parseFromString(cards, "text/html")
 
-    selectors.board.replaceWith(parser.querySelector('.board'))
+    selectors.board.replaceWith(parser.querySelector(".board"))
 }
 
 const startGame = () => {
     state.gameStarted = true
-    selectors.start.classList.add('disabled')
+    selectors.start.classList.add("disabled")
 
     state.loop = setInterval(() => {
         state.totalTime++
@@ -80,8 +80,8 @@ const startGame = () => {
 }
 
 const flipBackCards = () => {
-    document.querySelectorAll('.card:not(.matched)').forEach(card => {
-        card.classList.remove('flipped')
+    document.querySelectorAll(".card:not(.matched)").forEach(card => {
+        card.classList.remove("flipped")
     })
 
     state.flippedCards = 0
@@ -96,24 +96,24 @@ const flipCard = card => {
     }
 
     if (state.flippedCards <= 2) {
-        card.classList.add('flipped')
+        card.classList.add("flipped")
     }
 
     if (state.flippedCards === 2) {
-        const flippedCards = document.querySelectorAll('.flipped:not(.matched)')
+        const flippedCards = document.querySelectorAll(".flipped:not(.matched)")
 
         if (flippedCards[0].innerText === flippedCards[1].innerText) {
-            flippedCards[0].classList.add('matched')
-            flippedCards[1].classList.add('matched')
+            flippedCards[0].classList.add("matched")
+            flippedCards[1].classList.add("matched")
         }
 
         setTimeout(() => {
             flipBackCards()
         }, 1000)
     }
-    if (!document.querySelectorAll('.card:not(.flipped)').length) {
+    if (!document.querySelectorAll(".card:not(.flipped)").length) {
         setTimeout(() => {
-            selectors.boardContainer.classList.add('flipped')
+            selectors.boardContainer.classList.add("flipped")
             selectors.win.innerHTML = `
                 <span class="win-text">
                     You won!<br />
@@ -128,13 +128,13 @@ const flipCard = card => {
 }
 
 const attachEventListeners = () => {
-    document.addEventListener('click', event => {
+    document.addEventListener("click", event => {
         const eventTarget = event.target
         const eventParent = eventTarget.parentElement
 
-        if (eventTarget.className.includes('card') && !eventParent.className.includes('flipped')) {
+        if (eventTarget.className.includes("card") && !eventParent.className.includes("flipped")) {
             flipCard(eventParent)
-        } else if (eventTarget.nodeName === 'BUTTON' && !eventTarget.className.includes('disabled')) {
+        } else if (eventTarget.nodeName === "BUTTON" && !eventTarget.className.includes("disabled")) {
             startGame()
         }
     })

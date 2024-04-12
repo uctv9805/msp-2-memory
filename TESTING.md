@@ -32,32 +32,17 @@
 
 ### HTML
 No errors were returned when passing through the official W3C validator
-- W3C Validator for [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fuctv9805.github.io%2Fchar-design-portfolio%2Findex.html)
+- W3C Validator for [Find My Designs](assets/docs/screenshots/html-validator.png)
 
 ### CSS
-When testing using the official jigsaw validator using the URI some errors were raised coming directly from the bootstrap URI, not related to any of my code - I proved this by adding my CSS and ran the validator by direct input and no errors were reported in my code
+I ran the validator and no errors were reported in my code
 
-- Jigsaw Validator for CSS ![style.css validation](assets/docs/screenshots/jigsawvalidation.png)
+- Jigsaw Validator for CSS ![style.css validation](assets/docs/screenshots/w3c-css-validator.png)
 
 ## Lighthouse score
 
-### Desktop Version
-
-- index.html:
-
 ![index lighthouse score](assets/docs/screenshots/indexlighthousedt.png)
 
-- gallery.html:
-
-![index lighthouse score](assets/docs/screenshots/gallerylighthousedt.png)
-
-- contact.html:
-
-![index lighthouse score](assets/docs/screenshots/contactlighthousedt.png)
-
-- contactaction.html:
-
-![index lighthouse score](assets/docs/screenshots/contactactiondt.png)
 
 ### Issue with performance and the solution
 I was having trouble getting the performance above 90, especially on the gallery page but by reducing the image sizes this resulted in the scores being above 90 on multiple tests. To resize the images easily I used [imageresizer](https://imageresizer.com/).

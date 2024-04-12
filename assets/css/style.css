@@ -19,6 +19,12 @@ body {
 
 /******************************Header*/
 
+header {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .title {
   text-align: center;
   font-size: 60px;
@@ -191,8 +197,8 @@ button {
 
 .eye {
   background-repeat: no-repeat;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   object-fit: contain;
   float: right;
   padding-bottom: 50px;
@@ -201,8 +207,8 @@ button {
 
 .pig {
   background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   object-fit: contain;
   padding-left: 110px;
 }
@@ -236,15 +242,14 @@ button {
 
   /******************************Media Queries*/
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .background-images {
       display: none;
     }
   }
 
-  @media screen and (max-width: 768px) {
-    .game{
-      height: 50%;
-      width: 50%;
+  @media screen and (max-width: 992px) {
+    header {
+      display: none;
     }
   }

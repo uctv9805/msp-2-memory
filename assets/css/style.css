@@ -219,6 +219,7 @@ button {
     width: 300px;
     object-fit: contain;
     float: right;
+    padding-top: 100px;
     padding-right: 120px;
   }
 

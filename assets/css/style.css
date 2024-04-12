@@ -236,13 +236,13 @@ button {
 
   /******************************Media Queries*/
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .background-images {
       display: none;
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .game{
       height: 50%;
       width: 50%;

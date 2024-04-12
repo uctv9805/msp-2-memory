@@ -243,7 +243,7 @@ button {
 
   /******************************Media Queries*/
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 768px) {
     .background-images {
       display: none;
     }

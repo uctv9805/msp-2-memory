@@ -7,7 +7,7 @@ This site is targeted towards anyone who is looking for a fun little game to pla
 
 You can visit my live site [from here](https://uctv9805.github.io/msp-2-memory/)
 
-![shows website working across mulitple devices](/assets/docs/screenshots/responsive.jpg)
+![shows website working across mulitple devices]()
 
 ## Planning Stage
 
@@ -37,7 +37,7 @@ You can visit my live site [from here](https://uctv9805.github.io/msp-2-memory/)
 
 - The buttons and cards in the game are clickable and have animations/transitions added so the game feels responsive and satisfying to play.
 
-- Some of the artists artwork has been added to the background so it is inkeeping with their visual style. 
+- Some of the artists artwork has been added to the background so it is inkeeping with their visual style and a link to their website has been added. 
 
 
 ## Wireframes
@@ -48,110 +48,50 @@ The design has stayed mostly the same as the wireframes throughout this project,
 
 ## Color profile
 
-I wanted to create something which was aesthectically pleasing with complimentary colours so I spent time choosing interesting colours and built a nice color paletter around it. There is a nice contrast between the blues and the maroon which works well but also seperates the background and game board from the cards and buttons so it is clear to understand where to click to initiate and play the game. 
+I wanted to create something which was aesthectically pleasing with complimentary colours so I spent time choosing interesting colours and built a nice color palette around it. There is a nice contrast between the blues and the maroon which works well but also seperates the background and game board from the cards and buttons so it is clear to understand where to click to initiate and play the game. 
 
+![Color palette](assets/docs/screenshots/color-palette.png)
 
 ## Features
 
-### Navigation Bar
+### Title
 
-- The navigation bar is featured across all pages of the website allowing easy navigation around the site. It is fully responsive including links within the logo and Home button for the Homepage, and links to the Gallery page and Contact page.
+-  Encourages the user to 'find' so it gives a subtle explanation of an otherwise self explanatory game. It also shows the game was designed by the artist.
 
-- The navigation section allows the user to navigate the website completely and easily with links to all sections and works across all devices. It eliminates the need for the user to use the back button on the browser to revisit the previous page. 
+![A Title](/)
 
-![navigation bar](/assets/docs/screenshots/navigationbar.png)
+### Background Images
 
-### The Landing Page Image
+- I intend to make the game a part of my artists website so wanted some of the art encorporated into the background, I do intend to change the cards so that they have artwork on it in the future but for now the background is where you can find the work. 
 
-- The landing page has a striking illustration to immediately grab the attention of the user and introduce them to the type of work they can expect from the artist. It features an animation to help bring the characters to life and illustrate to the user the dynamic style the artist uses. 
+![A number of different orignal character illustrations]()
 
-- There is a text overlay explaining what services are available to the user 'Freelance Illustration & Character Design'.
+### Scores
 
-- There is a call to action to allow users in a hurry to immediately download the artists portfolio so they can look at this when they have more free time. The button is descriptive so the user knows exactly what action will occur if they click it, the portfolio downloads when pressed.
+- There is a move counter and a timer to make the game more interesting, giving the user incentive to play again and beat there score. 
 
-![A number of different orignal character illustrations](/assets/docs/screenshots/landingpage.png)
+### The Game
 
-### About Me Section
+- The game board is front and centre so the user can start playing as soon as the game loads. A 16 sqaure grid creates the pairs game and as the cards are clicked they are animated and turn to reveal an emoji. I want to put my own artwork as the image at some point in the future. 
 
-- There is a photograph of the artist which is half photo half illustration, to show the user who they are potentially working with but also shows they are creative and passionate about art.
+- Once the game is complete the whole board turns to reveal the score and time it took, and explanation to refresh the browser to play again. There is a link to the artists website. 
 
-- There is a paragraph with a brief overview of the artist, what they like to do and where they are based, to give the user a better understanding of the artist and their background. 
-
-- The section features a colored background to separate it from the landing page, to highlight it as a section and to make it stand out and catch the attention of the user encouraging them to read it. 
-
-![photo/illustration of a man, text explaining who it is](assets/docs/screenshots/aboutme.png)
-
-### Education & History *and* Proficiencies
-
-- The Education & History section shows the user where the artist was educated and when, and how long they have been working in this industry. This offers the user confidence in working with the artist due to their experience leading to them wanting to use the artist for their project.
-
-- The proficiencies section shows the user what programs the artist is most comfortable in using. They are programs used in industry so again this shows the user that the artist can handle most tasks required in this industry.
-
-![education and history section](assets/docs/screenshots/educationandhistory.png)
-
-### Client Testimonial
-
-- Here are some positive words from a previous client, the user will be interested to hear that the artist has received positive feedback from a previous client, this again offers the user confidence that the artist will provide a good service.
-
-![client testimonial](assets/docs/screenshots/clienttestimonial.png)
+![Image of a game board front and back]()
 
 ## The Footer
 
-The footer section consists of 3 sections, artists address, social media links, and a link to the contact page.
+The footer simply offers a copyright notation and another link to the artists website. 
 
-- The address offers the user confidence that they are dealing with a professional, they have a headquarters and can be contacted.
-
-- The social media icons are all links to the corresponding social media sights of the artist (*the twitter one just opens twitter in a new tab for now as the artist does not have a twitter account, this could be altered later when the account is set up*). They all open in new tabs to allow the user to stay on the website for easier navigation. It offers the user another way to stay connected to the artist and alternative methods of contact as well.
-
-- Contact section offers a link to the contact page so that no matter what page the user is on, once they are ready, there is an easy alternate navigation to contact the artist. It is underlined so the user is aware it is a link and has a hover effect so they know it is clickable. 
-
-![footer screenshot](assets/docs/screenshots/footer.png)
-
-## Gallery Page
-
-The gallery page shows the user a selection of the artists work so they can get a real feel of what they can achieve. There is also an embedded youtube video of a speed-drawing allowing the artist to showcase their work in a different way. Below this there is an opportunity to download the artists portfolio in full.
-
-- The gallery is set out in a nice tile style view, it is easy to view and makes the gallery tidy. It is valuable to the user as they can identify the type of creative style of work the artist can offer.
-
-- The youtube video is valuable to the user as it shows the artist at work, proving their skills in an entertaining way.
-
-- Adding the portfolio download at the bottom of the gallery means the user has had chance to view the work of the artist, become interested in their work and then as the opportunity arises to download the portfolio the work on show should have generated enough interest that they are willing to hit the download button.
-
-![gallery view of illustrations](assets/docs/screenshots/gallery.png)
-
-
-
-![image of video player and download link](assets/docs/screenshots/videoanddownload.png)
-
-### Contact Page
-
-This allows the user to contact the artist directly. After viewing their work throughout the site the user can now get in touch to arrange to work with the artist.
-
-- The user is asked to provide their name and email address - the form will prompt the user if any of the information is filled out incorrectly or not at all.
-
-- There is a section to provide a description of the work request or commission details so the user can effectively communicate their request.
-
-- The submit button is descriptive and fits the color theme of the website so the user can easily identify where to press to submit their request.
-
-- The image was used to help communicate they are contacting the artist and to help keep the theme of the website centered around the artwork.
-
-![screenshot image of the contact page](assets/docs/screenshots/contact.png)
-
-### Contact Response
-
-A page was made so that if the user filled out the contact page, they would get a response to show them that the request was filled out successfully and they would be contacted by the artist in due course.
-
-- It offers a confirmation of success and a response time so the user knows when to expect a response.
-
-- There is an illustration in keeping with the theme of the website.
-
-![screenshot of contactaction page - monster illustration](assets/docs/screenshots/contactaction.png)
+![Image of text and link from a footer]()
 
 ## Features Left to Implement
 
-### Projects Section
-- I think in the future a good section to add would be projects. Rather than a gallery page that showcases all the art it would include more details about a specific project - multiple images and a description of the work and ideas behind the project. 
-- It could be an extra page on the site and have information on multiple projects - gives the user and further look into the artists process and further entices them to get in touch.
+### Restart button
+- I want to add a restart button so that when the game ends the user doesn't have to refresh the browser.
+
+- I wan the imagery on the cards to be my original artwork instead of the emojis.
+
+- I would maybe like to incorporate the entire page into my website as another fun way to showcase some of my art, it may work as a standalone and offer another way to visit the site as it stands but this is something I will consider - The colors would need to be changed to fit the theme of the website though. 
 
 # Testing
 
@@ -166,7 +106,7 @@ I deployed the page on GitHub pages using the following steps:
 3. In the Source section, select Main branch from the drop-down menu then click Save.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-    Click here to be directed to the live site [Ash Marshall Design](https://uctv9805.github.io/char-design-portfolio/)
+    Click here to be directed to the live site [Find My Designs](https://uctv9805.github.io/msp-2-memory/)
 
 # Credits
 
@@ -176,22 +116,18 @@ Here is a list of people and resources I turned to throughout the project for su
 
 - Code Institute - My design took inspiration from a number of code-along projects that have been taught on the course so far, however I have adapted and created my own code so as not to simply copy and paste the ideas.
 
-- W3Schools has been invaluable in helping me with ideas for code and problem solving issues when they arose.  
+- W3Schools has been invaluable in helping me with ideas for code and problem solving issues when they arose. 
 
 ### Content
 
 - All content for the site was written by myself.
 
-- The social media icons within the footer and the icons within the proficiencies section were taken from [Font Awesome](https://fontawesome.com/)
+- The magnifying glass icon was from Font Awesome [Font Awesome](https://fontawesome.com/)
 
-- Font imported from [Google Fonts](https://fonts.google.com/)
+- Color palette was generated by coolors.co [coolors.co] (https://coolors.co/)
 
 ### Media
 
 As the actual aforementioned artist, I created all of the media used throughout the website myself.
 
-- All illustrations were drawn by me, Ashley Marshall - This includes, Hero image, gallery imagery and pictures within contact pages.
-
-- The youtube video content was drawn by me, Ashley Marshall - I also filmed and edited the video too.
-
-- The logo is my own original design - A little easter egg is the pencil design in the logo is also the initials of the site A M D.
+- All illustrations were drawn by me, Ashley Marshall - This includes the background images.

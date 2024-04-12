@@ -25,6 +25,9 @@
     - Solution
         - Had to remove background images and keep it plain and simple for smaller devices.
     
+## Known Bugs
+
+1. There is a bug that occurs when you click the card whilst the animtation of the card turning is happening where it adds a move to the move counter resulting in a higher number of moves being recorded. I have not yet found a solution but I am working on it. 
 
 # Post Development Testing
 
@@ -44,6 +47,8 @@ I ran the validator and no errors were reported in my code
 Lighthouse score was run and everything was in the green apart from performance - I am missing out marignally and it seems to be the image sizes - I intend to rectify this soon but ran out of time, I am confident a reduction in image file size will produce good performance.
 
 ![index lighthouse score](assets/docs/screenshots/lighthouse-score.png)
+
+## JS Lint 
 
 ## Accessibility
 

@@ -116,9 +116,10 @@ const flipCard = card => {
             selectors.boardContainer.classList.add("flipped")
             selectors.win.innerHTML = `
                 <span class="win-text">
-                    You won!<br />
-                    with <span class="highlight">${state.totalFlips}</span> moves<br />
-                    under <span class="highlight">${state.totalTime}</span> seconds
+                    You won!<br/>
+                    with <span class="highlight">${state.totalFlips}</span> moves<br/>
+                    under <span class="highlight">${state.totalTime}</span> seconds<br/>
+                    Refresh Your Browser To Play Again <a href="https://uctv9805.github.io/char-design-portfolio/" target="_blank">Visit My Website!</a><br/>
                 </span>
             `
 

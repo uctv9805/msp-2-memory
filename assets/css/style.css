@@ -254,3 +254,10 @@ button {
       display: none;
     }
   }
+
+  @media screen and (min-width: 576px) {
+    .game {
+      height: 30%;
+      width: 30%;
+    }
+  }

@@ -48,8 +48,6 @@ Lighthouse score was run and everything was in the green apart from performance 
 
 ![index lighthouse score](assets/docs/screenshots/lighthouse-score.png)
 
-## JS Lint 
-
 ## Accessibility
 
 As well as the accessibility score from lighthouse testing I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/extension/) to check my pages for accessibility and no errors were found.

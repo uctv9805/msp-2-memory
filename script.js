@@ -48,20 +48,19 @@ const generateGame = () => {
         throw new Error("The dimension of the board must be an even number.")
     }
 
-    const emojis = ["🍻", "👍", "👾", "👣", "🐶", "😴", "🍕", "🍔", "⚽", "🛹"]
+    const emojis = ["😴","👾","👽","👍🏻","🍔","🍕","🌮","🍻"]
     const picks = pickRandom(emojis, (dimensions * dimensions) / 2)
     const items = shuffle([...picks, ...picks])
     const cards = `
         <div class="board" style="grid-template-columns:
             repeat(${dimensions}, auto)">
-            ${items.map(item => `
+            ${items.map (item => `
                 <div class="card">
                     <div class="card-front"></div>
                     <div class="card-back">${item}</div>
-                </div>
-            `).join('')}
-       </div>
-        `
+                </div>`).join('')}
+            </div>
+            `
     
     const parser = new DOMParser().parseFromString(cards, "text/html")
 

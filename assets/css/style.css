@@ -37,7 +37,7 @@ body {
 }
 
 .header a.logo {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .game {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-top: 200px;
@@ -120,11 +120,6 @@ button {
   color: #914D76;
   font-size: 14pt;
   font-weight: bold;
-}
-
-.board-container {
-  margin: auto;
-  
 }
 
 .board, .win {
@@ -217,10 +212,9 @@ button {
 
 .monster {
   background-repeat: no-repeat;
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   object-fit: contain;
-  padding-bottom: 50px;
   padding-left: 75px;
   
 }
@@ -231,14 +225,13 @@ button {
   width: 300px;
   object-fit: contain;
   float: right;
-  padding-bottom: 50px;
   padding-right: 75px;
 }
 
 .pig {
   background-repeat: no-repeat;
-  height: 400px;
-  width: 400px;
+  height: 340px;
+  width: 340px;
   object-fit: contain;
   padding-left: 110px;
 }
@@ -249,8 +242,31 @@ button {
     width: 300px;
     object-fit: contain;
     float: right;
-    padding-top: 100px;
+    padding-top: 20px;
     padding-right: 120px;
+  }
+
+  /******************************About*/
+
+  .about-info {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .about-info h2 {
+    font-size: 50px;
+    color:#914D76
+  }
+
+  .about-info h3 {
+    font-size: 25px;
+    color:#914D76
+  }
+
+  .about-info h4 {
+    font-size: 40px;
+    color: #282A3A;
+    padding-top: 100px;
   }
 
   /******************************Footer*/
@@ -262,24 +278,49 @@ button {
     height:50px;
     width:100%;
     background: #914D76;
-    margin: auto;
+    font-size: 19px;
+    color: #35A7FF;
+    font-weight: lighter;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
-  .copyright {
-    font-size: 15px;
-    text-align: center;
-    color: #9FFCDF;
-    margin-top: 100px;
-    font-weight: lighter;
-  }
-
   .link {
-    color: #03001e;
+    color:#282A3A
   }
 
   .link:hover {
     background-color: #FFF;
   }
+
+  .socials {
+    float: right;
+    padding-right: 50px;
+    font-size: 30px;
+  }
+
+  .socials a:hover {
+    color: #fff;
+  }
+
+  .fa-instagram {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #35A7FF;
+  }
+
+  .fa-x-twitter {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #35A7FF;
+  }
+
+  .fa-youtube {
+    text-decoration: none;
+    color: #35A7FF;
+  }
+
+
 
   /******************************Media Queries*/
 

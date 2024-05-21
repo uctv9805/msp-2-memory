@@ -123,7 +123,8 @@ button {
 }
 
 .board-container {
-  position: relative;
+  margin: auto;
+  
 }
 
 .board, .win {
@@ -209,6 +210,11 @@ button {
 
 /******************************Background Images*/
 
+.background-images {
+  margin: auto;
+  padding-bottom: 100px;
+}
+
 .monster {
   background-repeat: no-repeat;
   height: 400px;
@@ -249,6 +255,16 @@ button {
 
   /******************************Footer*/
 
+  .footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background: #914D76;
+    margin: auto;
+}
+
   .copyright {
     font-size: 15px;
     text-align: center;
@@ -262,7 +278,7 @@ button {
   }
 
   .link:hover {
-    background-color: #914D76;
+    background-color: #FFF;
   }
 
   /******************************Media Queries*/
